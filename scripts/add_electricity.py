@@ -421,6 +421,7 @@ def attach_conventional_generators(
         capital_cost=ppl.capital_cost,
         build_year=ppl.datein.fillna(0).astype(int),
         lifetime=(ppl.dateout - ppl.datein).fillna(np.inf),
+        type=ppl.component,
     )
 
     for carrier in conventional_config:

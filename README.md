@@ -89,7 +89,7 @@ by <a href="https://github.com/yerbol-akhmetov"><b>Yerbol Akhmetov</b></a>
 ## Test run of 2020 scenario 
 To run the **default 2020 scenario** of Kazakhstan *(no line and renewable expansion is allowed*):
 1. Terminal/command window is located at `pypsa-earth` directory.
-2. The environment is activated by `conda activate pypsa-earth`.
+2. The environment is activated by `conda activate pypsa-kaz`.
 3. The scenario is executed with command:
     ```bash
     snakemake -j1 solve_everything

@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-name: pypsa-kztest
+name: pypsa-kaz
 channels:
 - conda-forge
 - bioconda
